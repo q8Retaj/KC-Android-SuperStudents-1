@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/score"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/anton"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Rock Paper Scissor "
+        android:textColor="#1C1C1C"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="RESET"
+        android:textColor="#5E2DD5"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scoretextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:gravity="center"
+        android:text="0:0"
+        android:textColor="#222221"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="You "
+        android:textColor="#CA2424"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/compSelectionTextView"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="-7dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Comp "
+        android:textColor="#03A9F4"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/userSelectionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="217dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Rock"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="26dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Paper "
+        android:textColor="#4CAF50"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/wonLostTieTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="173dp"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:text="wonLostTieTextView"
+        android:textColor="#1E1C1C"
+        android:textSize="34sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="340dp"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="69dp"
+        android:baselineAlignBottom="false"
+        android:foregroundGravity="bottom"
+        android:scrollIndicators="bottom"
+        app:srcCompat="@drawable/game"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
